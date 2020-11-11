@@ -62,7 +62,7 @@ params:
   - icon: ti-facebook
     URL: https://www.facebook.com/lingscars/
   - icon: ti-twitter-alt
-    URL: "#"
+    URL: https://twitter.com/LINGsCARS
   - icon: ti-linkedin
     URL: "#"
   - icon: ti-github
