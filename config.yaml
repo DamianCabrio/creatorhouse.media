@@ -42,7 +42,8 @@ params:
   logo: images/logo.png
   home: Inicio
   layout: "1"
-  description: This is meta description
+  description: Creator House es tu posibilidad de mostrar tu creatividad a tus fans,
+    y conseguir patrocinadores que apoyen tu contenido. ¡Convierte en un Creador!
   preloader: true
   search: true
   author: Creator House
@@ -67,9 +68,9 @@ params:
     URL: https://github.com/DamianCabrio
 menu:
   main:
-  - name: About
+  - name: Acerca de
     URL: about
     weight: "2"
-  - name: Contact
+  - name: Contacto
     URL: contact
     weight: "3"
