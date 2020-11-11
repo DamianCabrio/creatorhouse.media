@@ -41,6 +41,7 @@ params:
     - link: plugins/search/mark.js
     - link: plugins/search/search.js
   logo: images/logo.png
+  logofooter: images/logo_backup.png
   home: Inicio
   layout: "1"
   description: Creator House es tu posibilidad de mostrar tu creatividad a tus fans,
@@ -72,6 +73,6 @@ menu:
   - name: Acerca de
     URL: about
     weight: "2"
-  - name: Contacto
-    URL: contact
+  - name: Empezá Ya
+    URL: acá va a la plataforma
     weight: "3"
