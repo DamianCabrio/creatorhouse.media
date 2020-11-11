@@ -63,10 +63,8 @@ params:
     URL: https://www.facebook.com/lingscars/
   - icon: ti-twitter-alt
     URL: https://twitter.com/LINGsCARS
-  - icon: ti-linkedin
-    URL: "#"
   - icon: ti-github
-    URL: "#"
+    URL: https://github.com/DamianCabrio
 menu:
   main:
   - name: About
