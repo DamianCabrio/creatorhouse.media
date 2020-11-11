@@ -4,25 +4,25 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: titulo
 - type: datetime
   name: date
-  label: date
+  label: fecha
 - type: file
   name: image
-  label: image
+  label: imagen
 - type: text
   name: description
-  label: description
+  label: descripcion
 - type: list
   name: categories
-  label: categories
+  label: categorias
 - name: tags
   type: tag_list
   default: []
-  label: tags
+  label: etiquetas
 - type: text
   name: type
-  label: type
   default: post
   description: 'type: post or featured'
+  label: tipo
