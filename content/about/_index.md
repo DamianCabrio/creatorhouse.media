@@ -1,7 +1,7 @@
 ---
 title: Acerca de
 date: 2019-05-14T14:46:10.000+06:00
-description: This is meta description
+description: Nuestra meta
 image: images/author.jpg
 
 ---
