@@ -47,14 +47,13 @@ params:
   search: true
   author: Creator House
   author_image: images/banner-img.png
-  bio: I’m a Freelance Interactive Art Director based in France. Focusing across branding
-    and identity, digital and print.
+  bio: Creator House, somos una plataforma que se dedica a difundir el contenido creativo. Impulsando la creatividad desde 2020.
   mobile: "+64 21 087 97516"
   email: creator@house.com
   address: Kita-Kokubun Station, Ichikawa, Chiba, Japón,
   contact_form_action: "#"
   google_analitycs_id: Your ID
-  copyright: Copyright &copy; 2020 | Creator House | Made with ❤
+  copyright: Copyright &copy; 2020 | Creator House | Made with ❤ Anti COVID-19
   instafeed:
     enable: true
     access_token: IGQVJYeUk4YWNIY1h4OWZANeS1wRHZARdjJ5QmdueXN2RFR6NF9iYUtfcGp1NmpxZA3RTbnU1MXpDNVBHTzZAMOFlxcGlkVHBKdjhqSnUybERhNWdQSE5hVmtXT013MEhOQVJJRGJBRURn
