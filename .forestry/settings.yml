@@ -6,24 +6,24 @@ webhook_url:
 sections:
 - type: directory
   path: content
-  label: Post
+  label: Entradas
   create: documents
   match: "*"
   templates:
   - post
 - type: directory
   path: content/about
-  label: About
+  label: Acerca de
   create: none
   match: "*"
 - type: directory
   path: content/contact
-  label: Contact
+  label: Contacto
   create: none
   match: "*"
 - type: document
   path: config.yaml
-  label: Configuration
+  label: Configuracion
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
