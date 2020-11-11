@@ -15,7 +15,7 @@ module:
     - source: exampleSite/static/images
       target: static/images
 summaryLength: "10"
-paginate: "6"
+paginate: "4"
 outputs:
   home:
   - HTML
@@ -48,7 +48,8 @@ params:
   search: true
   author: Creator House
   author_image: images/banner-img.png
-  bio: Creator House, somos una plataforma que se dedica a difundir el contenido creativo. Impulsando la creatividad desde 2020.
+  bio: Creator House, somos una plataforma que se dedica a difundir el contenido creativo.
+    Impulsando la creatividad desde 2020.
   mobile: "+64 21 087 97516"
   email: creator@house.com
   address: Kita-Kokubun Station, Ichikawa, Chiba, Japón,
