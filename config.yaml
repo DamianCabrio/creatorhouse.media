@@ -14,8 +14,8 @@ module:
       target: static
     - source: exampleSite/static/images
       target: static/images
-summaryLength: '10'
-paginate: '6'
+summaryLength: "10"
+paginate: "6"
 outputs:
   home:
   - HTML
@@ -40,16 +40,16 @@ params:
     - link: plugins/search/mark.js
     - link: plugins/search/search.js
   logo: images/logo.png
-  home: Home
-  layout: '1'
+  home: Inicio
+  layout: "1"
   description: This is meta description
   preloader: true
   search: true
-  author: Themefisher
+  author: Creator House
   author_image: images/banner-img.png
   bio: I’m a Freelance Interactive Art Director based in France. Focusing across branding
     and identity, digital and print.
-  mobile: "+90 000 333 22"
+  mobile: "+64 21 087 97516"
   email: creator@house.com
   address: Kita-Kokubun Station, Ichikawa, Chiba, Japón,
   contact_form_action: "#"
@@ -69,9 +69,9 @@ params:
     URL: "#"
 menu:
   main:
-  - URL: contact
-    name: Contacto
-    weight: 2
-  - URL: about
-    name: Sobre Nosotros
-    weight: 1
+  - name: About
+    URL: about
+    weight: "2"
+  - name: Contact
+    URL: contact
+    weight: "3"
