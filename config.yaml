@@ -14,8 +14,8 @@ module:
       target: static
     - source: exampleSite/static/images
       target: static/images
-summaryLength: "10"
-paginate: "4"
+summaryLength: '10'
+paginate: '4'
 outputs:
   home:
   - HTML
@@ -43,7 +43,7 @@ params:
   logo: images/logoch2.svg
   logofooter: images/logofooter.svg
   home: Inicio
-  layout: "1"
+  layout: '1'
   description: Creator House es tu posibilidad de mostrar tu creatividad a tus fans,
     y conseguir patrocinadores que apoyen tu contenido. ¡Convierte en un Creador!
   preloader: true
@@ -70,9 +70,9 @@ params:
     URL: https://github.com/DamianCabrio
 menu:
   main:
-  - name: Acerca de
-    URL: about
-    weight: "2"
-  - name: Empezá Ya
-    URL: acá va a la plataforma
-    weight: "3"
+  - URL: acá va a la plataforma
+    name: Ir a Creator House
+    weight: 2
+  - URL: about
+    name: Acerca de
+    weight: 1
