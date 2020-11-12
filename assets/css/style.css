@@ -98,17 +98,17 @@ h6, .h6 {
 }
 
 .btn-primary {
-  background: #ff6f00;
+  background: #DA2C45;
   color: #fff;
   border: 0;
 }
 
 .btn-primary:active {
-  background: #ff6f00 !important;
+  background: #DA2C45 !important;
 }
 
 .btn-primary:hover {
-  background: #ff8c33;
+  background: #DA2C45;
 }
 
 .btn-outline-light {
@@ -117,19 +117,19 @@ h6, .h6 {
 }
 
 .btn-outline-light:active {
-  background: #fff !important;
-  color: #000000;
-  border-color: #fff;
+  background: #DA2C45 !important;
+  color: #fff;
+  border-color: #DA2C45;
 }
 
 .btn-outline-light:hover {
-  background: #fff !important;
-  color: #000000;
+  background: #000000 !important;
+  color: #fff;
   border-color: #fff;
 }
 
 .btn-transparent {
-  color: #ff6f00;
+  color: #DA2C45;
   border: 0;
 }
 
@@ -139,12 +139,12 @@ body {
 }
 
 ::-moz-selection {
-  background: #ff8c33;
+  background: #DA2C45;
   color: #fff;
 }
 
 ::selection {
-  background: #ff8c33;
+  background: #DA2C45;
   color: #fff;
 }
 
@@ -178,7 +178,7 @@ body {
   height: 16px;
   top: 12px;
   left: 15px;
-  background: #ff6f00;
+  background: #DA2C45;
   border-radius: 50%;
   -webkit-transform: translateX(0);
           transform: translateX(0);
@@ -201,7 +201,7 @@ body {
   width: 16px;
   height: 16px;
   margin-left: 16px;
-  background: #ff6f00;
+  background: #DA2C45;
   border-radius: 50%;
 }
 
@@ -264,10 +264,10 @@ select:focus {
 }
 
 a:hover {
-  color: #ff6f00;
+  color: #DA2C45;
 }
 a.text-dark:hover {
-  color: #ff6f00 !important;
+  color: #DA2C45 !important;
 }
 
 .slick-slide {
@@ -334,7 +334,7 @@ a.text-dark:hover {
 }
 
 .bg-secondary {
-  background: #fdefe6 !important;
+  background: #DA2C45 !important;
 }
 
 .text-primary {

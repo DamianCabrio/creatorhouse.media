@@ -40,8 +40,8 @@ params:
     - link: plugins/search/fuse.min.js
     - link: plugins/search/mark.js
     - link: plugins/search/search.js
-  logo: images/logo.png
-  logofooter: images/logo_backup.png
+  logo: images/logoch2.svg
+  logofooter: images/logofooter.svg
   home: Inicio
   layout: "1"
   description: Creator House es tu posibilidad de mostrar tu creatividad a tus fans,
@@ -59,7 +59,7 @@ params:
   google_analitycs_id: Your ID
   copyright: Copyright &copy; 2020 | Creator House | Made with ❤ Anti COVID-19
   instafeed:
-    enable: true
+    enable: false
     access_token: IGQVJYeUk4YWNIY1h4OWZANeS1wRHZARdjJ5QmdueXN2RFR6NF9iYUtfcGp1NmpxZA3RTbnU1MXpDNVBHTzZAMOFlxcGlkVHBKdjhqSnUybERhNWdQSE5hVmtXT013MEhOQVJJRGJBRURn
   social:
   - icon: ti-facebook

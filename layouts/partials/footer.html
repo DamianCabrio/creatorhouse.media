@@ -1,9 +1,10 @@
-<footer style="background-color:#DB2C44">
+<footer style="background-color:white">
   <div class="section">
     <div class="container">
       <div class="row">
-        <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
-          <a href="{{site.BaseURL}}"><img src="{{site.Params.logo | absURL }}" alt="{{site.Title}}" class="img-fluid"></a>
+        <div class="col-md-3 col-sm-6 mb-4 mb-md-0 pa-sm">
+          <a href="{{site.BaseURL}}"><img src="{{site.Params.logofooter | absURL }}" alt="{{site.Title}}"
+              class="img-fluid"></a>
         </div>
         <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
           {{ if .Site.Params.address }}
@@ -14,13 +15,13 @@
           {{ end }}
         </div>
         <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
-          {{ if or  .Site.Params.mobile  .Site.Params.email }}         
+          {{ if or  .Site.Params.mobile  .Site.Params.email }}
           <h6>Contact Info</h6>
           <ul class="list-unstyled">
             {{ if .Site.Params.mobile }}
             <li class="font-secondary text-dark">Tel : {{ .Site.Params.mobile | markdownify }}</li>
             {{ end }}
-            {{ if .Site.Params.email }}           
+            {{ if .Site.Params.email }}
             <li class="font-secondary text-dark">Email : {{ .Site.Params.email | markdownify }}</li>
             {{ end }}
           </ul>
@@ -45,7 +46,7 @@
 
 {{ if site.Params.search }}
 <script>
-  var indexURL = {{ "index.json" | absURL }}
+  var indexURL  {{ "index.json" | absURL }}
 </script>
 {{ end }}
 
@@ -61,10 +62,12 @@
 {{ "<!-- google analitycs -->" | safeHTML }}
 {{ with site.Params.google_analitycs_id }}
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
   ga('create', '{{ . }}', 'auto');
   ga('send', 'pageview');
 </script>
@@ -75,41 +78,42 @@
 {{ if site.Params.cookies.enable }}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
 <div id="js-cookie-box" class="cookie-box cookie-box-hide">
-	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-outline-light ml-2">I Accept</span>
+  This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button"
+    class="btn btn-sm btn-outline-light ml-2">I Accept</span>
 </div>
 <script>
-	(function ($) {
-		const cookieBox = document.getElementById('js-cookie-box');
-		const cookieButton = document.getElementById('js-cookie-button');
-		if (!Cookies.get('cookie-box')) {
-			cookieBox.classList.remove('cookie-box-hide');
-			cookieButton.onclick = function () {
-				Cookies.set('cookie-box', true, {
-					expires: {{ site.Params.cookies.expire_days }}
-				});
-				cookieBox.classList.add('cookie-box-hide');
-			};
+  (function ($) {
+    const cookieBox = document.getElementById('js-cookie-box');
+    const cookieButton = document.getElementById('js-cookie-button');
+    if (!Cookies.get('cookie-box')) {
+      cookieBox.classList.remove('cookie-box-hide');
+      cookieButton.onclick = function () {
+        Cookies.set('cookie-box', true, {
+          expires: {{ site.Params.cookies.expire_days }}
+    });
+    cookieBox.classList.add('cookie-box-hide');
+  };
 		}
-	})(jQuery);
+	}) (jQuery);
 </script>
 
 <!-- cookie style -->
 <style>
-.cookie-box {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-  z-index: 9999;
-  padding: 1rem 2rem;
-  background: rgb(71, 71, 71);
-  transition: all .75s cubic-bezier(.19, 1, .22, 1);
-  color: #fdfdfd;
-}
+  .cookie-box {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    z-index: 9999;
+    padding: 1rem 2rem;
+    background: rgb(71, 71, 71);
+    transition: all .75s cubic-bezier(.19, 1, .22, 1);
+    color: #fdfdfd;
+  }
 
-.cookie-box-hide {
-  display: none;
-}
+  .cookie-box-hide {
+    display: none;
+  }
 </style>
 {{ end }}
