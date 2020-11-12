@@ -10,7 +10,7 @@
           {{ if .Site.Params.address }}
           <h6>Address</h6>
           <ul class="list-unstyled">
-            <li class="font-secondary text-dark">{{site.Params.address | markdownify }}</li>
+            <li class="font-secondary text-white">{{site.Params.address | markdownify }}</li>
           </ul>
           {{ end }}
         </div>
@@ -19,10 +19,10 @@
           <h6>Contact Info</h6>
           <ul class="list-unstyled">
             {{ if .Site.Params.mobile }}
-            <li class="font-secondary text-dark">Tel : {{ .Site.Params.mobile | markdownify }}</li>
+            <li class="font-secondary text-white">Tel : {{ .Site.Params.mobile | markdownify }}</li>
             {{ end }}
             {{ if .Site.Params.email }}
-            <li class="font-secondary text-dark">Email : {{ .Site.Params.email | markdownify }}</li>
+            <li class="font-secondary text-white">Email : {{ .Site.Params.email | markdownify }}</li>
             {{ end }}
           </ul>
           {{ end }}
@@ -31,7 +31,7 @@
           <h6>Follow</h6>
           <ul class="list-inline d-inline-block">
             {{ range site.Params.social }}
-            <li class="list-inline-item"><a href="{{ .URL }}" class="text-dark"><i class="{{ .icon }}"></i></a></li>
+            <li class="list-inline-item"><a href="{{ .URL }}" class="text-white"><i class="{{ .icon }}"></i></a></li>
             {{ end }}
           </ul>
         </div>
