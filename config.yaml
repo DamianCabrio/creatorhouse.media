@@ -47,7 +47,7 @@ params:
   description: Creator House es tu posibilidad de mostrar tu creatividad a tus fans,
     y conseguir patrocinadores que apoyen tu contenido. ¡Convierte en un Creador!
   preloader: true
-  search: true
+  search: false
   author: Creator House
   author_image: images/banner-img.png
   bio: Creator House, somos una plataforma que se dedica a difundir el contenido creativo.
