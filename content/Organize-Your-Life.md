@@ -3,7 +3,7 @@ title: Cómo conciliar la vida laboral y personal como creador
 date: 2019-05-14T14:46:10.000+06:00
 description: ''
 type: featured
-image: "/images/creator-life.webp"
+image: "/images/banner-img.png"
 categories:
 - Ideas Valiosas
 tags:
