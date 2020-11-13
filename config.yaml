@@ -41,7 +41,7 @@ params:
     - link: plugins/search/mark.js
     - link: plugins/search/search.js
   logo: images/logoch2.svg
-  logofooter: images/logofooter.svg
+  logofooter: images/logo_backup2.png
   home: Inicio
   layout: '1'
   description: Creator House es tu posibilidad de mostrar tu creatividad a tus fans,
